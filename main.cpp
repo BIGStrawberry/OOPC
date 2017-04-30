@@ -1,4 +1,9 @@
-// template
+/* --------------------------- */
+// Wouter Dijkstra
+// 1700101
+// Jorn Bunk
+// Week 1 opdracht 1 & 2
+/* --------------------------- */
 
 #include <iostream>
 
@@ -6,18 +11,14 @@
 #include "line.hpp"
 #include "rectangle.hpp"
 #include "circle.hpp"
+#include "house.hpp"
+#include "filled_rectangle.hpp"
 
 int main(int argc, char **argv){
-   window w( 128, 64, 2 );
+    window w( 128, 64, 2 );
+
+    house house1(w, 10, 10, 5);
+    house1.print();
    
-   line diagonal_line( w, 5, 5, 30, 40 );
-   diagonal_line.print();
-   
-   rectangle box( w, 20, 10, 30, 20 );
-   box.print();
-   
-   circle ball( w, 70, 30, 20 );
-   ball.print();
-   
-   return 0;
+    return 0;
 }
