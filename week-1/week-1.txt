@@ -1,0 +1,1 @@
+./Release/main.cpp.o ./Release/circle.cpp.o ./Release/filled_rectangle.cpp.o ./Release/house.cpp.o ./Release/line.cpp.o ./Release/rectangle.cpp.o ./Release/window.cpp.o   
